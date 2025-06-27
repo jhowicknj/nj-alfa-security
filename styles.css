@@ -1,0 +1,116 @@
+/* Estilos gerais */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    height: 80px;
+}
+
+.nav-link {
+    color: #050505;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #28a745; /* Cor verde da logo */
+}
+
+.carousel-inner img {
+    height: 700px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.card {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 500px;
+    object-fit: cover;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Seções */
+#home {
+    background-color: #fff;
+    text-align: center;
+}
+
+#about {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#services {
+    background-color: #fff;
+    text-align: center;
+}
+
+#gallery {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#contact {
+    background-color: #fff;
+   
+}
+
+#map {
+    background-color: #e7dbff;
+    text-align: center ;
+}
+
+/* Rodapé */
+footer {
+    background-color: #28a745; /* Cor verde da logo */
+    color: #fff;
+}
+
+/* Botão WhatsApp */
+.fab.fa-whatsapp {
+    color: #fff;
+}
+@media (max-width: 576px) {
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .carousel-caption {
+        font-size: 14px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+    
+    .card-text {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
